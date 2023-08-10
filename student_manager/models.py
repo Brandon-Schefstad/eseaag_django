@@ -37,6 +37,7 @@ class Teacher(models.Model):
 class Accommodation(models.Model):
     DOMAIN_CHOICES = [('DOMAIN_PRESENTATION','Presentation'),('DOMAIN_RESPONSE','Response'),('DOMAIN_SETTING','Setting'),('DOMAIN_SCHEDULING','Scheduling'),]
     domain = models.CharField(max_length=20, choices=DOMAIN_CHOICES)
+    subdomain = models.CharField(max_length=50)
     name = models.CharField(max_length=30)
     def __str__(self):
         return self.name
