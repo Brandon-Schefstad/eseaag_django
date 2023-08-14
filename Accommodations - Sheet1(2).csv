@@ -1,0 +1,120 @@
+id,name,domain,subdomain
+1,Sign Language Interpreter,DOMAIN_PRESENTATION,Visual Formats
+2,Receptive Sign Language,DOMAIN_PRESENTATION,Visual Formats
+3,Large Print,DOMAIN_PRESENTATION,Visual Formats
+4,Color Contrast,DOMAIN_PRESENTATION,Visual Formats
+5,Video Recordings,DOMAIN_PRESENTATION,Visual Formats
+6,Closed Captioning/ASL Videos,DOMAIN_PRESENTATION,Visual Formats
+7,Braille,DOMAIN_PRESENTATION,Tactile Formats
+8,Refreshable Braille Display,DOMAIN_PRESENTATION,Tactile Formats
+9,Nemeth Braille Code,DOMAIN_PRESENTATION,Tactile Formats
+10,Tactile Graphic Images,DOMAIN_PRESENTATION,Tactile Formats
+11,Brailled Equipment,DOMAIN_PRESENTATION,Tactile Formats
+12,Haptic Feedback,DOMAIN_PRESENTATION,Tactile Formats
+13,Real Objects,DOMAIN_PRESENTATION,Tactile Formats
+14,Verbal Presentation,DOMAIN_PRESENTATION,Auditory Formats
+15,Recorded Books and Texts,DOMAIN_PRESENTATION,Auditory Formats
+16,Screen Reader,DOMAIN_PRESENTATION,Auditory Formats
+17,Equipment with Audio Output,DOMAIN_PRESENTATION,Auditory Formats
+18,Paper-Based Assessments,DOMAIN_PRESENTATION,Paper-Based Assessments
+19,Magnification Equipment,DOMAIN_PRESENTATION,Visual Enhancement
+20,Reduced Glare or Direct Lighting,DOMAIN_PRESENTATION,Visual Enhancement
+21,Minimized Visual Distraction,DOMAIN_PRESENTATION,Visual Enhancement
+22,Colored Transparencies/Filters,DOMAIN_PRESENTATION,Visual Enhancement
+23,Reading Guide Card,DOMAIN_PRESENTATION,Visual Enhancement
+24,Positioning Tools,DOMAIN_PRESENTATION,Visual Enhancement
+25,Securing Materials and Workbooks,DOMAIN_PRESENTATION,Visual Enhancement
+26,Leveled Books,DOMAIN_PRESENTATION,Reading
+27,Digital Text,DOMAIN_PRESENTATION,Reading
+28,Portable Scanning Devices,DOMAIN_PRESENTATION,Reading
+29,Personal Word Lists,DOMAIN_PRESENTATION,Reading
+30,Repeated Reading,DOMAIN_PRESENTATION,Reading
+31,Preview of Vocabulary or Key Points,DOMAIN_PRESENTATION,Comprehension
+32,Advance Organizers,DOMAIN_PRESENTATION,Comprehension
+33,Highlighting or Color Coding,DOMAIN_PRESENTATION,Comprehension
+34,Annotating,DOMAIN_PRESENTATION,Comprehension
+35,Study Guides,DOMAIN_PRESENTATION,Comprehension
+36,"Hands-on Activities, Pictures And Diagrams",DOMAIN_PRESENTATION,Comprehension
+37,Advance Organizers,DOMAIN_PRESENTATION,Listening
+38,Explicit Cues,DOMAIN_PRESENTATION,Listening
+39,Active Student Involvement,DOMAIN_PRESENTATION,Listening
+40,Repetition of Information,DOMAIN_PRESENTATION,Listening
+41,Note-Taking Assistance,DOMAIN_PRESENTATION,Listening
+42,Amplification Systems,DOMAIN_PRESENTATION,Listening
+43,Signals or Prompts,DOMAIN_PRESENTATION,Following Directions
+44,Self-Instructions or Self-Questions,DOMAIN_PRESENTATION,Following Directions
+45,Copy of Directions,DOMAIN_PRESENTATION,Following Directions
+46,Directions Repeated or Clarified,DOMAIN_PRESENTATION,Following Directions
+47,Sample Problems and Tasks,DOMAIN_PRESENTATION,Following Directions
+48,Simplified Graphic Directions w/ Pictures,DOMAIN_PRESENTATION,Following Directions
+49,Monitoring,DOMAIN_PRESENTATION,Following Directions
+50,Verbal Encouragement,DOMAIN_PRESENTATION,Following Directions
+51,Uncluttered and Clearly Organized Materials,DOMAIN_PRESENTATION,Following Directions
+52,Visual Cues,DOMAIN_PRESENTATION,Following Directions
+53,Scribe,DOMAIN_RESPONSE,Alternate Response Methods
+54,Word Processor,DOMAIN_RESPONSE,Alternate Response Methods
+55,Word Prediction Software,DOMAIN_RESPONSE,Alternate Response Methods
+56,Brailler,DOMAIN_RESPONSE,Alternate Response Methods
+57,Portable Note-Taking Devices,DOMAIN_RESPONSE,Alternate Response Methods
+58,Voice Recorders,DOMAIN_RESPONSE,Alternate Response Methods
+59,Voice Recognition Software,DOMAIN_RESPONSE,Alternate Response Methods
+60,Expressive Sign Language,DOMAIN_RESPONSE,Alternate Response Methods
+61,Cued Speech,DOMAIN_RESPONSE,Alternate Response Methods
+62,Augmentative and Alternative Communication,DOMAIN_RESPONSE,Alternate Response Methods
+63,Modified Writing Utensils,DOMAIN_RESPONSE,Supports for Handwriting
+64,Pencil/Pen Grips,DOMAIN_RESPONSE,Supports for Handwriting
+65,Finger Spacers,DOMAIN_RESPONSE,Supports for Handwriting
+66,Handwriting Guides,DOMAIN_RESPONSE,Supports for Handwriting
+67,Alphabet Strips,DOMAIN_RESPONSE,Supports for Handwriting
+68,Specialized Writing Paper,DOMAIN_RESPONSE,Supports for Handwriting
+69,Visual Writing Cues,DOMAIN_RESPONSE,Supports for Handwriting
+70,Paper Stabilizers,DOMAIN_RESPONSE,Supports for Handwriting
+71,Slant Boards,DOMAIN_RESPONSE,Supports for Handwriting
+72,Physical Supports,DOMAIN_RESPONSE,Supports for Handwriting
+73,Periodic Checks By Teacher,DOMAIN_RESPONSE,Supports for Handwriting
+74,Respond Directly on Worksheet,DOMAIN_RESPONSE,Supports for Handwriting
+75,Dictionaries and Thesauruses,DOMAIN_RESPONSE,Supports for Written Expression
+76,"Strategies, Templates, and Checklists",DOMAIN_RESPONSE,Supports for Written Expression
+77,Individualized Spelling List,DOMAIN_RESPONSE,Supports for Written Expression
+78,Spelling and Grammar check,DOMAIN_RESPONSE,Supports for Written Expression
+79,Graphic Organizers and Outlining,DOMAIN_RESPONSE,Supports for Written Expression
+80,Increased Wait Time,DOMAIN_RESPONSE,Supports for Oral Expression
+81,Use of Visual Images,DOMAIN_RESPONSE,Supports for Oral Expression
+82,Calculation Devices,DOMAIN_RESPONSE,Supports for Mathematics
+83,Tactile Tools and Materials,DOMAIN_RESPONSE,Supports for Mathematics
+84,Chart of Math Facts,DOMAIN_RESPONSE,Supports for Mathematics
+85,Concrete Materials and Manipulatives,DOMAIN_RESPONSE,Supports for Mathematics
+86,Visual Representations,DOMAIN_RESPONSE,Supports for Mathematics
+87,Specialized Mathematical Image Descriptions,DOMAIN_RESPONSE,Supports for Mathematics
+88,Planning Guides,DOMAIN_RESPONSE,Supports for Mathematics
+89,Special Paper,DOMAIN_RESPONSE,Supports for Mathematics
+90,Accessible Workstations,DOMAIN_SETTING,Physical Access
+91,Preferential Seating,DOMAIN_SETTING,Physical Access
+92,Special Lighting,DOMAIN_SETTING,Physical Access
+93,Acoustical Treatments,DOMAIN_SETTING,Physical Access
+94,Assignments Administered by a familiar person,DOMAIN_SETTING,Physical Access
+95,Class Rules and Expectations,DOMAIN_SETTING,Behavior and Attention
+96,Regular Procedures and Predictable Routines,DOMAIN_SETTING,Behavior and Attention
+97,Alternative Activities,DOMAIN_SETTING,Behavior and Attention
+98,Reduced Sources of Distractions,DOMAIN_SETTING,Behavior and Attention
+99,Preferential Seating,DOMAIN_SETTING,Behavior and Attention
+100,Noise buffers,DOMAIN_SETTING,Behavior and Attention
+101,Small Group,DOMAIN_SETTING,Behavior and Attention
+102,Individual Settings,DOMAIN_SETTING,Behavior and Attention
+103,Increased/Decreased Opportunity for Movement,DOMAIN_SETTING,Behavior and Attention
+104,Compartmentalized Containers,DOMAIN_SETTING,Organization
+105,Diagrams,DOMAIN_SETTING,Organization
+106,Checklists,DOMAIN_SETTING,Organization
+107,Color-Coded Binders,DOMAIN_SETTING,Organization
+108,Limited Materials,DOMAIN_SETTING,Organization
+109,Access To Study Materials,DOMAIN_SETTING,Organization
+110,Extended time,DOMAIN_SCHEDULING,Time Allocation
+111,Breaks,DOMAIN_SCHEDULING,Time Allocation
+112,Schedule Adjustments,DOMAIN_SCHEDULING,Time Allocation
+113,Predictable Routines,DOMAIN_SCHEDULING,Time Management
+114,Separating Tasks Into Parts,DOMAIN_SCHEDULING,Time Management
+115,Timelines,DOMAIN_SCHEDULING,Time Management
+116,Checklists of Tasks,DOMAIN_SCHEDULING,Time Management
+117,Assignment Planners,DOMAIN_SCHEDULING,Time Management
+118,Visual Schedules,DOMAIN_SCHEDULING,Time Management
+119,Electronic Devices,DOMAIN_SCHEDULING,Time Management
