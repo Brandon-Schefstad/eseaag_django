@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block content %} {%if message%}
+<h1>Sorry No Teachers!</h1>
+{%else%}
+<ul>
+	{%for teacher in teachers%}
+	<li>{{teacher.full_name}}</li>
+	{%endfor%}
+</ul>
+{%endif%} {%endblock content%}

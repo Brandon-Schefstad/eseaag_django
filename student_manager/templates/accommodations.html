@@ -1,15 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		<ul>
-			{%for accommodation in accommodations%}
-			<li>{{accommodation.name}}</li>
-			{%endfor%}
-		</ul>
-	</body>
-</html>
+{% extends "base.html" %} {% block content %}
+<h2>Presentation</h2>
+{%for accomm in accommodations.DOMAIN_PRESENTATION%}
+<ul>
+	<li>{{accomm.name}}</li>
+</ul>
+{%endfor%}
+<h2>Response</h2>
+{%for accomm in accommodations.DOMAIN_RESPONSE%}
+<ul>
+	<li>{{accomm.name}}</li>
+</ul>
+{%endfor%}
+<h2>Setting</h2>
+{%for accomm in accommodations.DOMAIN_SETTING%}
+<ul>
+	<li>{{accomm.name}}</li>
+</ul>
+{%endfor%}
+<h2>Scheduling</h2>
+{%for accomm in accommodations.DOMAIN_SCHEDULING%}
+<ul>
+	<li>{{accomm.name}}</li>
+</ul>
+{%endfor%} {%endblock%}

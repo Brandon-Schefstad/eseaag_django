@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		{% block content %} {% endblock content %}
+		<ul>
+			<li><a href="/display_teachers"> Teachers </a></li>
+			<li><a href="/display_students/">Students</a></li>
+			<li><a href="/accommodations/">Accommodations</a></li>
+		</ul>
+		<button
+			id="delete_all_teachers"
+			style="
+				background-color: rgb(120, 0, 0);
+				border-radius: 0.25rem;
+				color: white;
+			"
+		>
+			Delete all Teachers
+		</button>
+		<button
+			id="seed_teacher_db"
+			style="
+				background-color: rgb(0, 120, 0);
+				border-radius: 0.25rem;
+				color: white;
+			"
+		>
+			Seed Database
+		</button>
+		<button
+			id="delete_all_student_profiles"
+			style="
+				background-color: rgb(0, 0, 120);
+				border-radius: 0.25rem;
+				color: white;
+			"
+		>
+			Delete All Students
+		</button>
+	</body>
+	<script src="{%static 'main.js' %}"></script>
+	<script>
+		const idList = [
+			'delete_all_teachers',
+			'delete_all_student_profiles',
+			'seed_teacher_db',
+		];
+
+		idList.forEach((id) => {
+			document.getElementById(id).addEventListener('click', async () => {
+				await fetch(`/${id}`);
+				location.replace('/');
+			});
+		});
+	</script>
+</html>
